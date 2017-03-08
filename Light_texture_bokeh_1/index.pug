@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset='UTF-8')/
+		title='Bokeh_pattern'
+		link(rel='stylesheet' href='css/styles.css')
+	body
+		canvas#canvas
+		.wrapper
+			.colorizer1
+			.colorizer2
+			.colorizer3
+			.colorizer4
+			.circles
+				- for (let x = 0; x < 150; x++)
+					.circle
+		script(type='text/javascript' src='js/main.js')
